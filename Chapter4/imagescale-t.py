@@ -13,7 +13,7 @@ import Image
 import Qtrac
 
 
-Result = collections.namedtuple("Result", "copied scaled name")
+Result = collections.namedtuple(`"Result", "copied scaled name")
 Summary = collections.namedtuple("Summary", "todo copied scaled canceled")
 
 
@@ -37,7 +37,7 @@ def handle_commandline():
     parser.add_argument("-S", "--smooth", action="store_true",
                         help="use smooth scaling (slow but good for text)")
     parser.add_argument("source",
-                        help="the directory containing the original .xpm images")
+                        help="the directory containing th                                                                                                                                                                                                                                                                                                                                                                                                                                                }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             original .xpm images")
     parser.add_argument("target",
                         help="the directory for the scaled .xpm images")
     args = parser.parse_args()
