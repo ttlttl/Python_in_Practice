@@ -13,7 +13,7 @@ import Image
 import Qtrac
 
 
-Result = collections.namedtuple(`"Result", "copied scaled name")
+Result = collections.namedtuple("Result", "copied scaled name")
 Summary = collections.namedtuple("Summary", "todo copied scaled canceled")
 
 
